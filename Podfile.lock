@@ -1,0 +1,23 @@
+PODS:
+  - FLEX (2.1.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - FLEX
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 0.9.2)
+  - YYKit (~> 1.0.7)
+
+SPEC CHECKSUMS:
+  FLEX: 27b768fcae23a313a1eb115076d429180ca9b472
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 18cae6b4b8b6f63d9e33fdce5c7a826996e49807
+
+COCOAPODS: 1.2.1
