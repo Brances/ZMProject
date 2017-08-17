@@ -32,7 +32,7 @@
 
 - (void)setupUI{
     //图标在左
-    ZMButton *iconButtonLeft = [[ZMButton alloc] initWithTitle:@"文字在右" icon:@"\U0000e6df" iconType:ButtonIconTypeLeft];
+    ZMButton *iconButtonLeft = [[ZMButton alloc] initWithTitle:@"文字在右" icon:@"\U0000e6df\U0000ea9b" iconType:ButtonIconTypeLeft];
     iconButtonLeft.margin = 10;
     iconButtonLeft.titleColor = [UIColor colorWithHexString:@"#DC143C"];
     iconButtonLeft.tag = 1;

@@ -47,6 +47,7 @@
 		40C59E631F441AB5004BF0BE /* nucleo-mini.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40C59E601F441AB5004BF0BE /* nucleo-mini.ttf */; };
 		40C59E641F441AB5004BF0BE /* nucleo-outline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40C59E611F441AB5004BF0BE /* nucleo-outline.ttf */; };
 		40C59E671F441B8A004BF0BE /* ZMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C59E661F441B8A004BF0BE /* ZMViewController.m */; };
+		40F6BC711F45836100C3DCB4 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F6BC701F45836100C3DCB4 /* image.png */; };
 		7F88A9894DA7AC5FC5E4CA22 /* libPods-ZMProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7151609B2863670F25A627B2 /* libPods-ZMProject.a */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,7 @@
 		40C59E611F441AB5004BF0BE /* nucleo-outline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nucleo-outline.ttf"; sourceTree = "<group>"; };
 		40C59E651F441B8A004BF0BE /* ZMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMViewController.h; sourceTree = "<group>"; };
 		40C59E661F441B8A004BF0BE /* ZMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMViewController.m; sourceTree = "<group>"; };
+		40F6BC701F45836100C3DCB4 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		646B6B9DD300A4C8D8C35699 /* Pods-ZMProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZMProject/Pods-ZMProject.release.xcconfig"; sourceTree = "<group>"; };
 		6B9D3E77E068EE0D597E5A86 /* Pods-ZMProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZMProject/Pods-ZMProject.debug.xcconfig"; sourceTree = "<group>"; };
 		7151609B2863670F25A627B2 /* libPods-ZMProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZMProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +250,7 @@
 		40C59E1F1F441612004BF0BE /* ZMProject */ = {
 			isa = PBXGroup;
 			children = (
+				40F6BC6F1F45836100C3DCB4 /* Documents */,
 				40C59E5C1F441763004BF0BE /* Resources */,
 				40C59E591F441763004BF0BE /* Common */,
 				40C59E5B1F441763004BF0BE /* Lib */,
@@ -347,6 +350,14 @@
 				40C59E611F441AB5004BF0BE /* nucleo-outline.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		40F6BC6F1F45836100C3DCB4 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				40F6BC701F45836100C3DCB4 /* image.png */,
+			);
+			path = Documents;
 			sourceTree = "<group>";
 		};
 		D21B323C621B97A8A4141B9A /* Frameworks */ = {
@@ -487,6 +498,7 @@
 				40991E251F4424A2004FEFCE /* tweet_selected@2x.png in Resources */,
 				40991E141F4424A2004FEFCE /* me_normal@3x.png in Resources */,
 				40C59E621F441AB5004BF0BE /* nucleo-glyph.ttf in Resources */,
+				40F6BC711F45836100C3DCB4 /* image.png in Resources */,
 				40991E1D1F4424A2004FEFCE /* project_selected@2x.png in Resources */,
 				40991E171F4424A2004FEFCE /* privatemessage_normal@2x.png in Resources */,
 				40991E1A1F4424A2004FEFCE /* privatemessage_selected@3x.png in Resources */,
